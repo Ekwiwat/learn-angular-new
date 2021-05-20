@@ -1,0 +1,53 @@
+
+.main {
+    /* background: linear-gradient(to right bottom, orange , red); */
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    /* width: 100%;
+    height: 500px; */
+    padding: 0px 25px;
+}
+
+.menu {
+    display: flex;
+}
+ul li {
+    display: inline-block;
+    padding: 30px 25px 1px 25px;
+    font-size: 16px
+}
+
+ul li a {
+    text-decoration: none;
+    color:white;
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+nav div a img {
+    width: 250px;
+    margin: 20px 0px;
+}
+
+.login {
+background-color: white;
+border: none;
+color: red;
+font-size: 20px;
+width: 80px;
+height: 50px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+border-radius: 5px;
+}
+
+.login:hover {
+    color: white;
+    background-color: red;
+
+}

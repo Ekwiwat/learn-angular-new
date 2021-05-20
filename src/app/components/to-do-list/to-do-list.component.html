@@ -1,0 +1,24 @@
+<h3>Homework 2 & 13.4</h3>
+<div class="container">
+
+    <h1>My Task Today</h1>
+    <p>{{today | date}}</p>
+    <div class="form-control">
+        <label for="task"></label>
+        <input type="text" placeholder="Add task" name="task" [(ngModel)]="task" id="task">
+        <span class="addTask" (click)="onClick(task)">
+            <fa-icon [icon]="faPlus"></fa-icon>
+        </span>
+    </div>
+    <ul>
+        <li *ngFor="let x of toDo">{{x}}
+            <!-- Add Delete function -->
+            <span class="delTask" (click)="delTask(x)">
+                <fa-icon [icon]="faTrashAlt"></fa-icon>
+            </span>
+        </li>
+
+    </ul>
+    <div class="alert" *ngIf="toDo.includes(task)">"{{task}}" added</div>
+
+</div>

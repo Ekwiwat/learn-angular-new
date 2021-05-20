@@ -1,0 +1,4 @@
+<h3>Lab 4</h3>
+<div class="lab4">
+    <p *ngFor="let item of array" [ngClass]="item%2 === 0 ? 'number-even' : 'number-odd'">{{item}}</p>
+</div>

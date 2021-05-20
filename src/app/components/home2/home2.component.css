@@ -1,0 +1,74 @@
+body {
+    background-color: #ded9db;
+}
+.home-bg {
+    background: linear-gradient(to right bottom, orange , red);
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+  }
+
+  app-search-bar2 {
+      width: 100%;
+      position: absolute;
+      top: 425px;
+  }
+
+  app-card-body {
+    background-color: #ded9db;
+      position: relative;
+      top: 250px;
+  }
+
+  .content {
+      width: 70%;
+      margin: auto;
+      margin-top: 30px;
+      color: white;
+    }
+
+.content p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.try-free {
+margin-right: 30px;
+background-color: white;
+border: none;
+color: red;
+font-size: 20px;
+width: 250px;
+height: 50px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transition-duration: 0.4s;
+border-radius: 5px;
+}
+.try-free:hover {
+    color: white;
+    background-color: red;
+}
+
+.signup {
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+.signup:hover {
+    color: red;
+    background-color: white;
+}

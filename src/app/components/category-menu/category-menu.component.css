@@ -1,0 +1,38 @@
+
+.header {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border: solid 1px #cbd2d0;
+    border-collapse: collapse;
+}
+.category-wrap {
+    width: 1400px;
+    height: 380px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid 1px #cbd2d0;
+    border-top: none;
+    border-collapse: collapse;
+}
+
+.ct-men {
+    display: flex;
+}
+.ct-women {
+    display: flex;
+}
+.ct-cell {
+    width: 140px;
+    height: 190px;
+    border: solid 0.5px #cbd2d0;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 20px;
+}
+fa-icon {
+    font-size: 4rem;
+    color: grey;
+}

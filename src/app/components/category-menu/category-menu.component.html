@@ -1,0 +1,24 @@
+<div class="header">
+    <H4>Category</H4>
+</div>
+<div class="category-wrap">
+    <div class="ct-men">
+        <div class="ct-cell" *ngFor="let item of categoryMen">
+            <div>
+                <fa-icon [icon]="faDumbbell"></fa-icon>
+            </div>
+            <div>{{item}}</div>
+        </div>
+    </div>
+    <div class="ct-women">
+        <div class="ct-cell" *ngFor="let item of categoryWomen">
+            <div>
+                <fa-icon [icon]="faGifts"></fa-icon>
+            </div>
+            <div>{{item}}</div>
+        </div>
+    </div>
+
+</div>
+
+<!-- <p *ngFor="let item of array" [ngClass]="item%2 === 0 ? 'number-even' : 'number-odd'">{{item}}</p> -->
