@@ -29,7 +29,8 @@ export class ToDoListComponent implements OnInit {
   }
 
   delTask(x) {
-    this.toDo.splice(x, 1);
+
+    this.toDo.splice(this.toDo.indexOf(x), 1);
   }
 
 }
